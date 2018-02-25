@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestFailurePlaylistMakerV2": {
+      "commandName": "Project",
+      "commandLineArgs": "TestResult.xml TestPlaylist.playlist"
+    }
+  }
+}
