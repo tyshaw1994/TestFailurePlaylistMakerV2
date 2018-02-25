@@ -21,7 +21,7 @@ namespace TestFailurePlaylistMakerV2
             var playlist = XmlParser.CreatePlaylist(trxAsXml);
             var filename = (args[1].Contains(".playlist")) ? args[1] : $"{args[1]}.playlist";
             playlist.Save(filename);
-            Console.WriteLine("Successful.");
+            Console.WriteLine("Operation Successful.");
         }
     }
 }
